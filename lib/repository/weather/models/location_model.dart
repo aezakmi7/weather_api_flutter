@@ -11,6 +11,7 @@ class Location {
 
   Future<void> getCurrentLocation() async {
     try {
+      // ignore: unused_local_variable
       LocationPermission permission;
       permission = await Geolocator.requestPermission();
 
